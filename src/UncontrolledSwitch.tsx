@@ -14,8 +14,8 @@ const UncontrolledSwitch: FC<UncontrolledSwitchProps> = ({
   defaultChecked = false,
   onChange,
   disabled,
-  onText = 'On',
-  offText = 'Off',
+  onText = 'ON',
+  offText = 'OFF',
   style
 }) => {
   const [isChecked, setIsChecked] = useState<boolean>(defaultChecked);

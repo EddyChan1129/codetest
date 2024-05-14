@@ -1,15 +1,17 @@
 .switch {
+  width: 100px;
+  letter-spacing: 5px;
   padding: 10px 20px;
   border: 1px solid #ccc;
   border-radius: 20px;
   background-color: #f0f0f0;
   cursor: pointer;
   position: relative;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ;
 }
 
 .switch-on {
-  background-color: #4CAF50; 
+  background-color: rgba(0, 225, 255, 0.725); 
 }
 
 .switch-off {
@@ -40,3 +42,4 @@
 .switch-off .switch-handle {
   left: 5px;
 }
+

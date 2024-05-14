@@ -14,8 +14,8 @@ const Switch: FC<SwitchProps> = ({
   checked = false,
   onChange,
   disabled = false,
-  onText = 'On',
-  offText = 'Off',
+  onText = 'ON',
+  offText = 'OFF',
   style
 }) => {
   const [isChecked, setIsChecked] = useState(checked);
@@ -35,7 +35,7 @@ const Switch: FC<SwitchProps> = ({
   };
 
   return (
-    <div className='bg-style' style={style}>
+    <div style={style}>
       <button
         className={`switch ${isChecked ? 'switch-on' : 'switch-off'} ${disabled ? 'switch-disabled' : ''}`}
         onClick={handleToggle}
